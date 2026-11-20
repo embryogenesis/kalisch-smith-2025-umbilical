@@ -1,0 +1,33 @@
+{
+  "$comment": "Verbatim mirror. `md5` is as supplied by Figshare and is recorded for transport integrity only — it is not evidence of authenticity. Verify against `sha256`, which was computed locally from the downloaded bytes.",
+  "repo": "kalisch-smith-2025-umbilical",
+  "title": "Kalisch-Smith 2025 — 3D models of the early human umbilical vasculature",
+  "doi": "10.25446/oxford.28883651",
+  "licence": "CC BY 4.0",
+  "spdxLicenceId": "CC-BY-4.0",
+  "attribution": "Kalisch-Smith, Jacinta I.",
+  "citation": "Kalisch-Smith JI (2025). 3D models of the early human umbilical vasculature. University of Oxford ORA.",
+  "modified": false,
+  "mirroredAt": "2026-11-20T20:37:09.892Z",
+  "sourceArticles": [
+    {
+      "id": 28883651,
+      "doi": "10.25446/oxford.28883651.v1",
+      "title": "<b>3D models of the early human umbilical vasculature</b>.tif",
+      "licenceAtMirrorTime": "CC BY 4.0"
+    }
+  ],
+  "files": [
+    {
+      "path": "data/Human CS stages 02.tif",
+      "originalName": "Human CS stages 02.tif",
+      "articleId": 28883651,
+      "size": 17911904,
+      "sha256": "540d4e6411136b3e8f966e83f0950be7fc8a4cc6cafbb121e198ebcadacfa862",
+      "md5": "c4d1611373371620d43d2baecf90910f",
+      "md5MatchedFigshare": true,
+      "releaseAsset": false,
+      "downloadUrl": "https://ndownloader.figshare.com/files/54020132"
+    }
+  ]
+}
