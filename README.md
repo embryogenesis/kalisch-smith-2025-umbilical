@@ -38,14 +38,6 @@ Full checksums, original filenames and the source article id for every file are 
 python3 -c "import json,hashlib,pathlib;m=json.load(open('MANIFEST.json'));[print(('ok  ' if hashlib.sha256(pathlib.Path(f['path']).read_bytes()).hexdigest()==f['sha256'] else 'BAD ')+f['path']) for f in m['files'] if pathlib.Path(f['path']).exists()]"
 ```
 
-## Why this mirror exists
-
-It is part of [embryogenesis](https://github.com/embryogenesis/embryogenesis), an interactive atlas of embryological development and the biodynamic-osteopathic "fluid body".
-
-The atlas exists because the best segmented human embryo geometry in the world is licensed CC BY-NC-ND and therefore cannot be redistributed by anyone. The lesson of that is not that licences are inconvenient but that **availability is not permanence**: a deposit can be superseded, re-licensed or lost with its repository. Where a depositor has chosen CC BY they have explicitly permitted redistribution, and taking them up on it — with a checksum on every byte — is the cheapest insurance there is against that geometry becoming as unavailable as the geometry we already cannot use.
-
-If you are one of the depositors and would like something changed or removed, open an issue; the request will be honoured regardless of what the licence permits.
-
 ---
 
 Mirrored 2026-11-20 by `tools/mirror.ts` in the atlas repository, which re-verifies the licence of every article against the live Figshare metadata before downloading anything and aborts on a mismatch.
