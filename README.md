@@ -14,7 +14,7 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); see [`
 
 ## What this is
 
-The atlas's maternal layer currently models the cord as a schematic helix with an invented pitch, which is on the list of things this project made up. This is real staged geometry for the structure and the obvious way to replace an invention with a measurement.
+A multi-page TIFF image stack of 3D models of the early human umbilical vasculature across Carnegie stages. Image data rather than mesh geometry, so extracting vessel centrelines or a surface requires segmentation.
 
 ## Contents
 
@@ -28,7 +28,7 @@ Full checksums, original filenames and the source article id for every file are 
 
 ## Notes for anyone using this
 
-- A single multi-page TIFF covering Carnegie stages, not a mesh. Image stack, so expect to segment it.
+- A single multi-page TIFF covering several Carnegie stages. An image stack rather than a mesh.
 - Deposited at Oxford ORA, which runs on Figshare infrastructure, so the same API serves it.
 
 ## Verifying the mirror
@@ -40,4 +40,4 @@ python3 -c "import json,hashlib,pathlib;m=json.load(open('MANIFEST.json'));[prin
 
 ---
 
-Mirrored 2026-11-20 by `tools/mirror.ts` in the atlas repository, which re-verifies the licence of every article against the live Figshare metadata before downloading anything and aborts on a mismatch.
+Mirrored 2026-11-21 by `tools/mirror.ts` from [embryogenesis](https://github.com/embryogenesis/embryogenesis). The licence of each source article was checked against the live Figshare metadata before download.
